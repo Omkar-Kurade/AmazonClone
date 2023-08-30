@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 1500px; */
+    background-color: #232f3e;
+}
+
+.bct {
+    display: flex;
+}
+
+h2 {
+    font-size: medium;
+    color: white;
+    margin-right: 37px;
+    margin-left: 37px;
+    margin-top: 45px;
+
+}
+
+ul {
+    list-style: none;
+    color: white;
+    margin-bottom: 25px;
+
+}
+
+ul>li>a {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+
+}
+
+ul>li>a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+.sunHeader {
+    display: flex;
+    max-height: 55px;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+    background-color: #232f3e;
+}
+
+.sunHeader>ul {
+    margin: 0px 5px;
+    padding: 8px 8px;
+
+}
+
+.sunHeader>ul>a {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+}
+
+.sunHeader>ul>a:hover {
+    border: 1px solid white;
+}
